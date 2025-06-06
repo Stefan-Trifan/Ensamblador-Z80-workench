@@ -9,7 +9,6 @@ Los programas han sido creados y editados utilizando el entorno **Zeus**, orient
 - Ejercicios básicos y avanzados del Z80 para comprender instrucciones fundamentales del microprocesador.
 - Código ejecutado en el entorno emulado Zeus 48K, utilizando estructuras y macros proporcionadas en clase.
 - Entregables evaluables de la asignatura
-- Código fuente en lenguaje ensamblador Z80
 - Pruebas y experimentación con instrucciones del Z80
 - Estructuras de bajo nivel implementadas directamente en ensamblador
 
@@ -31,10 +30,9 @@ Algunos de los conceptos trabajados a lo largo de la asignatura incluyen:
 
 ## Entorno utilizado
 
-- **Editor Zeu** (orientado al desarrollo para el microprocesador Z80)
-- Simulador/emulador del ZX Spectrum como entorno de pruebas
+- **Editor Zeus** (orientado al desarrollo para el microprocesador Z80)
 
 ## Objetivo
 
-Este repositorio sirve como banco de trabajo para entender el funcionamiento de bajo nivel de un procesador, la manipulación directa de registros, saltos condicionales, llamadas a subrutinas y operaciones con memoria — todo desde el paradigma del **lenguaje ensamblador**.
+Este repositorio sirve como banco de trabajo para entender el funcionamiento de bajo nivel de un procesador, la manipulación directa de registros, saltos condicionales, llamadas a subrutinas y operaciones con memoria.
 
