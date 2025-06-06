@@ -1,0 +1,25 @@
+Problema 3 Zeus Notas medias / Problem 3 Average of grades (2,5 ptos)
+
+Se pide desarrollar un programa en ensamblador del procesador Z80 utilizando el software ZEUS, el cual:
+
+Reserve memoria suficiente y almacene en ella los siguientes números en decimal que se corresponden con notas del primer examen: 7,4,8,10,3,0,7
+
+Reserve memoria suficiente y almacene en ella los siguientes números en decimal que se corresponden con notas del segundo examen: 5,6,9,10,1,0,4
+
+Reserve memoria suficiente (en el ejemplo necesitamos 7 posiciones) y almacene en ella la media de los números anteriores por pares:
+(7 + 5)/2, (6 + 4)/2, (8 + 9)/2, ...
+
+Por simplificación la media de 8 y 9 es 8 y no 8.5 en este ejercicio.
+
+Pista:
+Recuerda que con la instrucción SRA se puede dividir el contenido de un registro por 2 desplazándolo a la derecha.
+
+Condiciones:
+
+La media tiene que calcularse en una rutina/función denominada calculam
+
+Hay que incluir en Blackboard un pantallazo de la zona de memoria donde se almacena el resultado de la media.
+
+Es necesario presentar un código limpio y con comentarios en cada instrucción que explique lo que está haciendo.
+
+Hay que entregar en Blackboard el fichero .ASM

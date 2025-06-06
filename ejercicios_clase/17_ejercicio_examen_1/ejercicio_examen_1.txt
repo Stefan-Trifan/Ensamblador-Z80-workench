@@ -1,0 +1,22 @@
+Pregunta 1
+
+Problema 1 Zeus Par-Impar / Problem 1 Zeus Even-Odd (1 pto)
+
+Se pide desarrollar un programa en ensamblador del procesador Z80 utilizando el software ZEUS, el cual determine si un número guardado en el registro D es par o impar.
+
+Condiciones:
+
+	Pondremos un número que queramos en decimal en el registro D, en la parte de comentarios pondremos ese mismo número en binario y en hexadecimal.
+Cuando tengáis el programa hecho debéis probar que funciona con el número en decimal, binario o en hexadecimal.
+
+	Si ese número es par, el programa guardará un 1 en el registro C. Si es impar guardará un 0.
+
+	Es necesario presentar un código limpio y con comentarios en cada instrucción que explique lo que está haciendo.
+
+	Hay que entregar en blackboard el fichero .ASM
+
+Pista:
+Un número es par si su bit menos significativo es 0 y es impar si vale 1. 
+
+Para poder comprobarlo, una opción podría ser el empleo de un “and”, ya que  0 AND 1 = 0 y 1 and 1 = 1
+
